@@ -1,0 +1,17 @@
+docling>=2.54.0
+qdrant-client>=1.11.0
+sentence-transformers>=3.0.1
+torch>=2.2.0
+transformers>=4.44.0
+tqdm>=4.66.0
+pydantic>=2.8.0
+python-magic-bin; platform_system=="Windows"
+python-magic; platform_system!="Windows"
+beautifulsoup4>=4.12.2
+lxml>=5.2.0
+pandas>=2.2.0
+openpyxl>=3.1.2
+rarfile>=4.2
+pyunpack>=0.3
+patool>=1.12
+Pillow>=10.0.0
