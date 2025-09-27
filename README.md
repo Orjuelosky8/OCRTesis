@@ -8,7 +8,7 @@
 
 1. Clona o copia esta carpeta `tesis_ingesta` y edita `.env` si es necesario.
 2. Verifica que la carpeta con tus archivos esté en `D:\LicitacionesTesis`.  
-   Si no, cambia el volumen en `docker-compose.yml` (línea `- /d/LicitacionesTesis:/data:ro`).
+   Si no, cambiae el volumen en `docker-compose.yml` (línea `- /d/LicitacionesTesis:/data:ro`).
 3. Inicia servicios y la ingesta:
 
 ```bash

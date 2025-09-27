@@ -6,7 +6,7 @@ page = q.scroll(
     collection_name="tesis_chunks",
     limit=3,
     with_payload=True,
-    with_vectors=False,   # pon True si quieres ver el vector (grande)
+    with_vectors=False,   # poner True si quieres ver el vector (grande)
 )
 for pt in page[0]:
     print(pt.id, pt.payload["source_name"], pt.payload["chunk_index"])
